@@ -1,0 +1,43 @@
+body{
+font-family: sans-serif;
+padding: 5px;
+margin-top: 0;
+
+}
+header h1{
+margin-bottom:3px;
+  }
+header hr{
+margin-top: 0;
+margin-bottom: 0;
+}
+.biography{
+width: 75%;
+/*solo abarca el porcentaje dado de la pantalla*/
+display: inline-block;
+/*alinear verticalmente hacía arriba*/
+font-size: 14px;
+/*separacion entre líneas*/
+line-height:1.6;
+
+}
+.summary{
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 15px;
+}
+.summary-table{
+border: 1px solid #B4BBC8;
+background-color:#f9f9f9;
+padding: 3px;
+font-size: 14px;
+}
+.summary-table thead th{
+  background-color: inherit;
+  padding-top:3px;
+  padding-bottom: 3px;
+  font-size: 18px;
+}
+.summary-table tbody tr:first-child{
+  text-align: center;
+}
